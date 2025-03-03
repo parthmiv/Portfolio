@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/3c1a660c1f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.js">
+
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/P (1).png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Certifications</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi,<br> I'm <span>Parth</span> Mistri</h1>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ----------about--------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/WhatsApp Image 2024-10-22 at 11.14.04_18f748be.jpg" alt="Parth's photo">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Frontend Developer with a strong foundation in HTML, CSS, JavaScript, PHP, and SQL. Skilled in building responsive,
+                        user-friendly web interfaces and passionate about crafting seamless digital experiences. Continuously learning and
+                        exploring modern frontend technologies to enhance development efficiency. Seeking an opportunity to contribute
+                        technical expertise and creativity in a dynamic development environment.
+                    </p>    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')"> Skills</p>
+                        <p class="tab-links" onclick="opentab('education')"> Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages: HTML, CSS, JavaScript, SQL</span></li>
+                            <li><span>Databases: MySQL</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>Web Developer Associate at Accenture</li>
+                            <li><span>2020 - 2021</span><br>Internship Porgramme At TCR Innovations</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor in Computer Applications, (CGPA: 7)</span> <br> KKSU University (2021 - 2024)</li>
+                            <li><span>Higher Secondry, (CGPA: 8)</span> <br> Balbharti College (2019 - 2021)</li>
+                            <li><span>SSC, (CGPA: 6)</span> <br> K.S. Mehta High School (2018 - 2019)</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- -----------Certifications----------- -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Certifications</h1>
+        <div class="services-list">
+            
+                <div>
+                    <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Sj7temL583QAYpHXD/E6McHJDKsQYh79moz_Sj7temL583QAYpHXD_ybLFQry6vDfLHqcRg_1736494469991_completion_certificate.pdf">
+                        <i class="fa-regular fa-window-restore"></i>
+                        <h2>JPMorgan Chase & Co - Software Engineering Job Simulation</h2>
+                        <h4>Forage</h4>
+                    </a>
+                </div>
+
+            <div>
+                <a href="https://moonshot.scaler.com/s/li/M6kT_VoYf4">
+                    <i class="fa-solid fa-terminal"></i>
+                    <h2>Introduction to Programming Using Python</h2>
+                    <h4>Scaler</h4>
+                </a>
+            </div>
+        </div>  
+    </div>
+</div>
+
+<!-- ----------projects--------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/vhcstore.png">
+                <div class="layer">
+                    <h3>E-Commerce Website</h3>
+                    <p>
+                        This is a fully functional e-commerce website for cycles and their respective accessories, built using HTML, CSS, and JavaScript. The website includes multiple pages and interactive features to provide a smooth shopping experience for users.
+                    </p>
+                    <a href="https://parthmiv.github.io/E-commerce/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <!-- <div class="work">
+                <img src="Images/emoji.png">
+                <div class="layer">
+                    <h3>Bento</h3>
+                    <p>Personal Portfolio</p>
+                    <a href="https://bento.me/parthmistri" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div> -->
+            <!-- <div class="work">
+                <img src="Images/emoji.png">
+                <div class="layer">
+                    <h3>E-commerce App</h3>
+                    <p>The app connects you to the talented people around the world.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div> -->
+        </div>
+    </div>
+</div>
+
+<!-- ------------contact--------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>
+                    <a href="mailto:parthmistri2907@gmail.com">
+                        <i class="fa-solid fa-paper-plane"></i>parthmistri2907@gmail.com
+                    </a>
+                </p>
+                <p>
+                    <a href="tel:+919321168737">
+                        <i class="fa-solid fa-square-phone"></i>+919321168737
+                    </a>
+                </p>
+                <div class="social-icons">
+                    <!-- <a href=""><i class="fa-brands fa-instagram"></i></a> -->
+                    <a href="http://www.linkedin.com/in/parth-mistri-838101232" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/parthmiv" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Images/Parth_Mistri_Resume.pdf.pdf" download class=" btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class=" btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p class="copyright">&copy; 2024 Portfolio | All Rights Reserved</p>
+    </div>
+</div>
+
+<!-- -----------javascipt---------- -->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzLQ8EkOTPlzixtkWDrWtWGYxQShEGKfl7ezF0IV5ATFSoGONVV_WFW_3wyfQNsuz5y/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
