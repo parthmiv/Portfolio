@@ -398,21 +398,13 @@ nav .fa-solid{
 
 @media only screen and (max-width: 600px){
     #header{
-        /* background-image: url(Images/unsplash.jpg); */
         width: 100%;        
         height: 100%;
-        /* transform-origin: bottom;
-        animation: header linear;
-        animation-timeline: view();
-        animation-range: exit 0px; */
-    }
-    @keyframes header{
-        25% {opacity: 1;}
-        85%, 100% {opacity: 0; scale: 2;}
     }
     .header-text{
-        margin-top: 100%;
+        margin-top: 100% ;
         font-size: 16px;
+        text-align: center;
     }
     .header-text h1{
         font-size: 30px;
@@ -422,7 +414,7 @@ nav .fa-solid{
         font-size: 25px;
     }
     nav ul{
-        background: #ff004f;
+        background: #262626;
         position: fixed;
         top: 0;
         right: -200px;
@@ -444,6 +436,7 @@ nav .fa-solid{
     }
     .sub-title{
         font-size: 40px;
+        text-align: center;
     }
     .about-col-1, .about-col-2{
         flex-basis: 100%;    
@@ -453,6 +446,11 @@ nav .fa-solid{
     }
     .about-col-2{
         font-size: 14px;
+        text-align: center;
+    }
+    .tab-titles{
+        text-align: center;
+        justify-content: center;
     }
     .tab-links{
         font-size: 15px;
@@ -462,15 +460,40 @@ nav .fa-solid{
         flex-basis: 100%;
     }
     .layer{
-        padding: 0 150px;
-        font-size: 15px;
-        font-weight: 400;
+        justify-content: flex-end;
+        padding: 0 25px;
+    }
+    .layer p{
+        padding: 0 5px;
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    .layer h3{
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    .layer a{
+        width: 30px;
+        height: 30px;
+        font-size: 10px;
+        margin-top: 10px;
+        line-height: 10px;
+        border-radius: 60%;
+        text-align: center;
+        padding: 10px;
+    }
+    .social-icons{
+        text-align: center;
+    }
+    .btn2{
+        display: block;
+        text-align: center;
+    }
+    #msg{
+        color: #61b752;
+        margin-top: -40px;
+        display: block;
+        text-align: center;
     }
     
 }
-#msg{
-    color: #61b752;
-    margin-top: -40px;
-    display: block;
-}
-
